@@ -1,6 +1,6 @@
-package DI_DependencyInjection;
+package DI_DependencyInjection.Fruits;
 
-public class Grape extends Fruit{
+public class Grape extends Fruit {
     public Grape(String name, String color, int kcal, int price) {
         super(name, color, kcal, price);
     }
