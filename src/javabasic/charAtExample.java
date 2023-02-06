@@ -1,3 +1,5 @@
+package javabasic;
+
 public class charAtExample {
     public static void main(String[] args){
 

@@ -1,3 +1,5 @@
+package javabasic;
+
 public class indexOfExample {
     public static void main(String[] args) {
 
