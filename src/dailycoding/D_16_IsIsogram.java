@@ -2,7 +2,7 @@ package dailycoding;
 
 public class D_16_IsIsogram {
     public static void main(String[] args) {
-        boolean output = isIsogram("aba");
+        boolean output = isIsogram("aee");
         System.out.println(output); // false
 
         output = isIsogram("Dermatoglyphics");
@@ -10,6 +10,10 @@ public class D_16_IsIsogram {
 
         output = isIsogram("moOse");
         System.out.println(output); // false
+
+        output = isIsogram("aee");
+        System.out.println(output); // false
+
     }
 
     private static boolean isIsogram(String str) {
@@ -66,7 +70,7 @@ public class D_16_IsIsogram {
         for (int i = 0; i < str.length() - 1; i++) {
             for(int j = i; j < str.length() -1; j++) {
                 char a = str.charAt(i);
-                char b = str.charAt(j);
+                char b = str.charAt(j+1);
                 if(str.charAt(i) == str.charAt(j+1)) {
                     return false;
                 }

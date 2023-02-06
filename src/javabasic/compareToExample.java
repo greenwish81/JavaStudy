@@ -1,3 +1,5 @@
+package javabasic;
+
 public class compareToExample {
     public static void main(String[] args) {
 
