@@ -42,5 +42,5 @@ public class D_18_NumberSearch {
 //        a 를 b 로 나눠서 소숫점 첫째자리에서 반올림한 값을 반환한다
         int result = (int)(Math.round((double) sum / (double) count));
         return result;
-    };
+    }
 }
