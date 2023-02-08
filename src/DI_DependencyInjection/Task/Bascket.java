@@ -1,5 +1,7 @@
 package DI_DependencyInjection;
 
+import DI_DependencyInjection.Fruits.Fruit;
+
 import java.util.ArrayList;
 
 public class Bascket {
