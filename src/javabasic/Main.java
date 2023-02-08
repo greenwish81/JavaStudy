@@ -1,4 +1,7 @@
+package javabasic;
+
 import javabasic.Person;
+import javabasic.Student;
 
 import java.util.Scanner;
 
@@ -6,10 +9,13 @@ public class Main {
     public static void main(String[] args) {
 
         Person s = new Person("happy", 29);
+        Student boy = new Student("good", 29);
 
         String favoriteFood = s.eat("한식");
+        String boysFood = boy.eat("커피");
 
         System.out.println(favoriteFood);
+        System.out.println(boysFood);
 
 
 //        System.out.printf("%s%n", "Hello Java");
